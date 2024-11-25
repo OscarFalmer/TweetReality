@@ -1,0 +1,56 @@
+PODS:
+  - Crashlytics (3.10.4):
+    - Fabric (~> 1.7.9)
+  - Fabric (1.7.9)
+  - JGProgressHUD (2.0.3)
+  - JPSVolumeButtonHandler (1.0.5)
+  - Kingfisher (4.8.0)
+  - ReachabilitySwift (4.1.0)
+  - SnapKit (4.0.0)
+  - SwiftyGif (3.1.1)
+  - TwitterCore (3.1.0)
+  - TwitterKit (3.3.0):
+    - TwitterCore (>= 3.1.0)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - JGProgressHUD
+  - JPSVolumeButtonHandler
+  - Kingfisher (from `https://github.com/onevcat/Kingfisher.git`, branch `master`)
+  - ReachabilitySwift
+  - SnapKit
+  - SwiftyGif (from `https://github.com/kirualex/SwiftyGif`, branch `swift4`)
+  - TwitterKit
+
+EXTERNAL SOURCES:
+  Kingfisher:
+    :branch: master
+    :git: https://github.com/onevcat/Kingfisher.git
+  SwiftyGif:
+    :branch: swift4
+    :git: https://github.com/kirualex/SwiftyGif
+
+CHECKOUT OPTIONS:
+  Kingfisher:
+    :commit: a5d1214220b8ddf29acf7c08c8bb42993ed56c54
+    :git: https://github.com/onevcat/Kingfisher.git
+  SwiftyGif:
+    :commit: 4244b01b1c0692231fde1ce3e9a9fe13954aefb3
+    :git: https://github.com/kirualex/SwiftyGif
+
+SPEC CHECKSUMS:
+  Crashlytics: 915a7787b84f635fb2a81f92a90e265c2c413f76
+  Fabric: a2917d3895e4c1569b9c3170de7320ea1b1e6661
+  JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
+  JPSVolumeButtonHandler: 53110330c9168ed325def93eabff39f0fe3e8082
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftyGif: 752fb942da1059f14f9525e38b2c6d45d90df563
+  TwitterCore: 644d59e75abccb26cf0a9050d2c4dea0e5412241
+  TwitterKit: a2e60ddcedbf54091eac6f27685ca7a87681e1d7
+
+PODFILE CHECKSUM: e843f259e3c13888f046973b62effe65765b23ee
+
+COCOAPODS: 1.4.0

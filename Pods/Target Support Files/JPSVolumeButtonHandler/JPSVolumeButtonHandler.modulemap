@@ -1,0 +1,6 @@
+framework module JPSVolumeButtonHandler {
+  umbrella header "JPSVolumeButtonHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}
